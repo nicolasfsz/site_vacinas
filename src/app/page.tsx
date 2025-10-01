@@ -1,5 +1,7 @@
+import { useState } from 'react';
 import { Shield, Syringe, Calendar, Users, ArrowRight, Heart } from 'lucide-react';
 import Link from "next/link";
+
 
 
 export default function HomePage() {
@@ -30,10 +32,10 @@ export default function HomePage() {
             <span style={{fontSize: '1.5rem', fontWeight: 'bold', color: '#1e293b'}}>Vacinas</span>
           </div>
           <div style={{display: 'flex', gap: '2rem'}}>
-            <Link href="/" style={{color: '#2563eb', textDecoration: 'none', fontWeight: '600'}}>Home</Link>
-            <Link href="/calendario/page" style={{color: '#64748b', textDecoration: 'none', fontWeight: '500'}}>Calendário</Link>
-            <Link href="#vacinas" style={{color: '#64748b', textDecoration: 'none', fontWeight: '500'}}>Vacinas</Link>
-            <Link href="" style={{color: '#64748b', textDecoration: 'none', fontWeight: '500'}}>Mitos</Link>
+            <Link href="./calendario/page.tsx" style={{color: '#2563eb', textDecoration: 'none', fontWeight: '600'}}>Home</Link>
+            <Link href="/calendario" style={{color: '#64748b', textDecoration: 'none', fontWeight: '500'}}>Calendário</Link>
+            <Link href="/vacinas" style={{color: '#64748b', textDecoration: 'none', fontWeight: '500'}}>Vacinas</Link>
+            <Link href="/mitos" style={{color: '#64748b', textDecoration: 'none', fontWeight: '500'}}>Mitos</Link>
           </div>
         </nav>
       </header>
