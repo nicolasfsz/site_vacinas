@@ -19,7 +19,7 @@ export default function Home() {
         <section className="hero">
           <h2>Bem-vindo ao Portal das Vacinas</h2>
           <p>
-            Aqui você encontra informações detalhadas sobre vacinas: sua importância, tipos e os principais mitos.
+            Aqui você encontra informações detalhadas sobre vacinas: sua importância, calendário e os principais mitos.
           </p>
         </section>
 
@@ -52,7 +52,7 @@ export default function Home() {
       </main>
 
       <footer className="site-footer">
-        <p>© 2025 Portal das Vacinas. Todos os direitos reservados.</p>
+        <p>Portal das Vacinas</p>
       </footer>
     </>
   );
